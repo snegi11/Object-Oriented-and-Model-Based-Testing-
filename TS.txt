@@ -1,0 +1,25 @@
+Test#1: Activate 2.0 3.0 4.0 PayCredit Approved Regular StartPump PumpLiter PumpLiter StopPump Receipt TurnOff 
+Test#2: Activate 2.0 3.0 4.0 PayCash 10 Super StartPump PumpLiter PumpLiter StopPump NoReceipt PayCash 10 Cancel PayCredit Reject TurnOff
+Test#3: Activate 2.0 3.0 4.0 TurnOff
+Test#4: Activate 2.1 3.1 4.1 PayCredit Approved Diesel Cancel PayCash 5 Diesel Cancel PayCredit Approved Cancel PayCash 5 Cancel TurnOff
+Test#5: Activate 4.2 3.6 2.1 PayCash 5 Regular Cancel PayCredit Reject PayCredit Approved Super StartPump StopPump NoReceipt TurnOff
+Test#6: Activate 4.0 5.0 6.0 PayCash 2 Diesel StartPump StopPump Receipt PayCredit Approved Diesel StartPump StopPump Receipt PayCash 5 Cancel TurnOff
+Test#7: Activate 4.0 5.0 6.0 PayCash 5 Super Cancel TurnOff
+Test#8: Activate 5.0 6.0 7.0 PayCash 2 Regular StartPump PumpLiter NoReceipt PayCredit Reject PayCash 4 Regular StartPump PumpLiter Receipt TurnOff
+Test#9: Activate 4.0 5.0 6.0 PayCash 5 Super StartPump PumpLiter PumpLiter Receipt TurnOff
+Test#10: Activate 2.0 3.0 4.0 Activate 2.0 3.0 4.0 Reject Cancel Approved PayCash -5 Regular Super Diesel StartPump PumpLiter StopPump Receipt NoReceipt TurnOff PayCredit Activate 2.0 3.0 4.0 Cancel PayCredit PayCash 5 Regular Super Diesel StartPump PumpLiter StopPump Receipt NoReceipt TurnOff Reject TurnOff
+Test#11: Activate 2.0 3.0 4.0 PayCash 5 PayCredit PayCash 5 StartPump PumpLiter StopPump Receipt NoReceipt TurnOff Activate 2.0 3.0 4.0 Approved Reject Regular Activate 2.0 3.0 4.0 Approved PayCredit PayCash 2 PumpLiter StopPump Receipt NoReceipt TurnOff Regular Super Diesel Reject Cancel TurnOff
+Test#12: Activate 2.0 3.0 4.0 PayCredit Approved Super StartPump StartPump Activate 2.0 3.0 4.0 PayCredit Reject Cancel Approved PayCash 5 Regular Super Diesel Receipt NoReceipt TurnOff StopPump Activate 2.0 3.0 4.0 PayCredit Reject Cancel Approved PayCash 5 Regular Super Diesel TurnOff StartPump PumpLiter StopPump Receipt TurnOff
+Test#13: Activate 2.0 3.0 4.0 PayCash 5 Super StartPump Activate 2.0 3.0 4.0 PayCredit Reject Cancel Approved PayCash 5 Regular Super Diesel Receipt NoReceipt TurnOff StartPump StopPump Receipt TurnOff
+Test#14: PayCredit Reject Cancel Approved PayCash 5 Regular Super Diesel StartPump PumpLiter StopPump NoReceipt Receipt TurnOff
+Test#15: Activate 2.0 3.0 -4.0 Activate 2.0 -3.0 4.0 Activate 2.0 -3.0 -4.0 Activate -2.0 3.0 4.0 Activate -2.0 3.0 -4.0 Activate -2.0-3.0 4.0 Activate -2.0 -3.0 -4.0 Activate 2.0 3.0 4.0 PayCredit Reject TurnOff
+Test#16: Activate 4.0 5.0 6.0 PayCash 12.0 Cancel Activate 4.0 5.0 6.0 Activate 4.0 5.0 -6.0 Activate 4.0 -5.0 6.0 Activate 4.0 -5.0 -6.0 Activate -4.0 5.0 6.0 Activate -4.0 5.0 -6.0 Activate -4.0 -5.0 6.0 Activate -4.0 -5.0 -6.0 TurnOff
+Test#17: Activate 4.0 5.0 3.0 PayCash -10 PayCash 4.5 PayCredit Regular StartPump PumpLiter StopPump Receipt TurnOff
+Test#18: Activate 2.0 3.0 4.0 Reject PayCredit Approved Diesel Cancel TurnOff
+Test#19: Activate 2.0 3.0 4.0 Approved PayCredit Cancel Approved Super Super Regular Diesel Cancel TurnOff
+Test#20: Activate 4.5 6.5 5.5 PayCredit PayCash -5 PayCash 5 Approved Diesel PumpLiter StartPump PumpLiter StartPump StopPump TurnOff NoReceipt TurnOff
+Test#21: Activate 4.0 5.0 3.0 PayCash 1.0 Regular StartPump PumpLiter Receipt TurnOff 
+Test#22: Activate 4.0 5.0 3.0 Receipt NoReceipt PayCash 7 Super StartPump PumpLiter PumpLiter NoReceipt TurnOff
+Test#23: Activate 1.0 2.0 3.0 PayCash 25.0 Super StartPump PumpLiter StopPump Receipt TurnOff 
+Test#24: Activate 5.0 6.0 4.0 PayCash 5.0 Regular StartPump PumpLiter StopPump Receipt TurnOff
+$$
